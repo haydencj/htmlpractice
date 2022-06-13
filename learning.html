@@ -1,0 +1,94 @@
+<!DOCTYPE html> <!-- Defines this document is HTML5-->
+<html lang="en-US"> <!-- Root element of an HTML page-->
+
+<!-- Always include lang attribute inside the html tag, its used to 
+    assist search engine and browsers. You can also include a country code -->
+
+<head> <!-- Contains meta information of the page-->
+    <title>Learning HTML</title> <!-- Specifies the title (shown in page's tab)-->
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {background-color: blanchedalmond;}
+    </style>
+    <!-- Above is an example of adding CSS internally.-->
+</head>
+
+<body> <!-- Defines the document's body, and is a container for the visible 
+            contents, such as headings, paragraphs, images, hyperlinks, tables,
+            lists, etc.-->
+
+    <h1>Hayden's Webpage</h1> <!-- Defines a large heading. <h1> to <h6>, most important to least -->
+    <div class="quote"    
+        <p><q>Those who dare to fail miserably can achieve greatly</q></p>
+        <p>-John F Kennedy</p> <!-- Defines a paragraph -->
+    </div>
+
+    <hr color="brown";> <!-- Defines a thematic change in the content -->
+
+    <h2>Social Media</h2>
+    
+    <div class="socials">
+        <div class="insta">
+            <a href="https://www.instagram.com/hayden.cj/" target="_blank">
+                <img src="instagramlogo.png" alt="Instagram" width="60" height="60">
+            </a> 
+        </div>
+
+        <div class="twitter">
+            <a class="twitter" href="https://twitter.com/haydencj_" target="_blank">
+                <img src="twitterlogo.png" alt="Twitter" width="60" height="60">
+            </a>
+        </div>
+    </div>
+
+    <hr color="brown";>
+
+    <!-- HTML links are defined with the <a> tag. The link's destination
+        is specified in the href attribute. -->
+
+    <!-- HTML elements with no content are empty elements. The <br> tag
+        defines defines a line break, and is an empty element without a closing tag. -->
+
+    <img src="AlienThumbs.jpg" alt="AlienThumbs" height="360" width="540">
+    
+    <p> More about HTML images: </p>
+
+    <blockquote><b>
+    HTML images are defined with the img tag. The source file (src),
+    alternative text (alt) are required attributes, but it's advised you
+    also include the width and height attributes. <br><br>
+
+    There are two ways to specify the URL in the src attribute.
+    Absolute URL, links to an external image hosted on another websote.
+    Relative URL, links to an image that is hosted within the website.
+    check above img tag for example.
+    </b></blockquote>
+
+    <hr color="brown";>
+
+    <p style="color:blue; font-size:150%;"> This paragraph has STYLE! </p>
+    <!-- The style attribute is used to add styles to an element, such as color,
+        font, size, and more.-->
+
+    <!-- <tagname style="property:value;"> -->
+
+    <p title="This attribute displays more info!">
+        <mark>Hover over me.</mark>
+    </p>
+
+    <hr>
+
+    <pre style="background-color:powderblue; text-align:center">
+        An old silent pond
+        A frog jumps into the pond-
+        Splash! Silence again.
+    </pre>
+    <!-- The <pre> element defines preformatted text. The text is displayed in
+        a fixed-width font, and it preserves both spaces and line breaks.-->
+
+    <hr color="brown";>
+    
+</body>
+</html>

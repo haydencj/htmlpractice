@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+
+    color:brown;
+    font-family:Verdana;
+
+    border: 2px solid brown;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 25px;
+}
+
+h2 {
+    color:brown;
+    font-family:Verdana;
+}
+
+.socials {
+    display:flex;
+    /*flex-direction: column;*/
+    justify-content: space-around;
+}
+
+.insta {
+    flex:0;
+}
+
+.twitter {
+    flex:0;
+}
+
+.quote {
+    text-align:center ;
+    color: brown;
+}
